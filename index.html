@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ПРАКТИЧНА РОБОТА 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="alert('Wassup')" onunload="alert('See ya')">
+
+    <h2>Завдання колір фону</h2>
+    <form>
+        <input type="button" value="Червоний" onclick="document.bgColor='red'">
+        <input type="button" value="Синій" onclick="document.bgColor='blue'">
+        <input type="button" value="Жовтий" onclick="document.bgColor='yellow'">
+        <input type="button" value="Білий" onclick="document.bgColor='white'">
+    </form>
+
+    <hr>
+
+    <h2>Завдання</h2>
+    <button onclick="task1()">Завдання 1: Візитки</button>
+    <button onclick="task2()">Завдання 2: Вислови</button>
+    <button onclick="task3()">Завдання 3: Математика</button>
+
+    <div id="output"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
